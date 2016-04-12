@@ -1,0 +1,26 @@
+body {
+    background-image: url('../Images/silver.jpg');
+
+}
+#wrapper{ 
+	width: 900px;
+	margin: 20px auto 20px auto;
+	background-color: #ffffff;
+}
+
+h1
+{
+    color: #9f9f9f;
+}
+.koppar
+{
+	color: #000;
+}
+.silver
+{
+	color: #000;
+}
+.tenn
+{
+	color: #000;
+}

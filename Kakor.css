@@ -1,0 +1,107 @@
+header, section, footer, aside, nav, article, figure, figcaption{
+	display:block;
+}
+
+body {
+	color:#ffffff; /*vit text*/
+	background-color:#fefefe; /*ljusgrå bakrund*/
+	background-image: url('../Images/Kakan.png');
+	background-repeat: repeat;
+	background-size: 260px;
+	font-family: Georiga, 'Times New Roman', serif;
+	line-height: 1,4em; /*radavstånd*/
+	magrin: 0;
+
+} 
+
+#wrapper{ /*kapslar in hela body*/
+	width: 900px;
+	margin: 20px auto 20px auto;
+	background-color: #5f391c; /*cholkladbrun*/
+
+
+}
+header{
+	height: 150px;
+	background-image: url('../Images/header.png');
+	border-bottom-left-radius:;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+h1{
+	text-indent:-9999px;
+	width:900px;
+	height:150px;
+	margin:0px;
+
+}
+article{
+	clear:both;
+	width:100%;
+
+}
+figure{
+	width: 235px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+	border: 6px solid #eee;
+	background-color: #5f391c;
+	border-radius: 15px;
+
+}
+section.courses{
+	width: 640px;
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+	float: left;
+
+}
+figcaption{
+	font-size: 0,9em;
+	text-align: right;
+}
+aside{
+	width: 200px;
+	float: left;
+	padding: 0 0 0 20px;
+
+}
+aside section a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid white;
+}
+aside section a:hover{
+	color: pink;
+}
+nav, footer{
+	clear:both;
+	color:pink;
+	background-color: #5f391c;
+	height: 30px;
+
+}
+nav ul{
+	margin: 0px;
+	padding: 5px 0;
+	/*detta blir mellanrummen som finns i ul-boxen*/
+
+}
+nav ul li{
+	display: inline; /*detta gör att elementen hamnar efter varanndra*/
+	margin-right: 50 px; /*skapar ett mellanrum mellan li-elementen*/
+
+}
+
+nav ul li a{
+	color: #000;
+
+}
+nav ul li a:hover {
+	color: pink;
+
+}
+
+
