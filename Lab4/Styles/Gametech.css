@@ -37,7 +37,7 @@ article{
 	margin: 0px 0px 0px -15px;
 	box-shadow: 5px 5px 15px margin 0px 0px 0px 15px rgba(0,0,0, 0.5);
 	text-align: center;
-	margin-right: 10 px;
+	margin-right: 10px;
 
 }
 figure{
@@ -67,7 +67,8 @@ footer{
 	clear:both;
 	color: #ffffff;
 	background-color: #000000;
-	height: 150px;
+	height: 200px;
+	display: inline;
 
 }
 nav ul{
@@ -80,7 +81,7 @@ nav ul{
 nav ul li{
 	display: inline; /*detta gör att elementen hamnar efter varanndra*/
 	margin-right: 0 px; /*skapar ett mellanrum mellan li-elementen*/
-
+s
 }
 
 nav ul li a{
