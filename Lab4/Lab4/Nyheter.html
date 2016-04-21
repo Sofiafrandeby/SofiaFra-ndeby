@@ -4,28 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="description" content="Vi har spel till PS2, PS3, Xbox 360, Nintendo DS, Wii, PSP, PC, MAC mm till låga priser och snabba leveranser.">
     <meta name="author" content="Sofia Frändeby">
     <link rel="icon" href="../../favicon.ico">
 
     <title>GameTech | Datorspel och spel till alla konsoler</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"-->
-    <!-- Custom styles for this template -->
-    <!--link href="css/jumbotron.css" rel="stylesheet"-->
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body style="background-color: #828282">
@@ -33,10 +22,10 @@
         <header class="page-header">
             <a href="index.html"><img src="Images/logga.png" alt= "GameTech logga" title= "GameTech logga" width="300" class="img-responsive hidden-sm hidden-xs" style="margin-right:auto;margin-left:auto;" /></a>
         </header>
-        <!--Meny-->
+
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
+
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -103,16 +92,15 @@
                             <div class="form-group">
                                 <input type="text" placeholder="Sök" class="form-control">
                             </div>
-                            <button type="submit" class="btn btn-success"><img src="images/sok.png"></button>
+                            <button type="submit" class="btn btn-success"><img src="images/sok.png" alt="sok knapp"></button>
                             <a href="kassa.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="color:#ffffff; font-size:x-large; vertical-align:middle; padding-left: 20px;"></span></a>
                         </form>
 
-                    </div><!--/.navbar-collapse -->
-                </div><!--/.container-fluid -->
+                    </div>
+                </div>
             </div>
         </nav>
-        <!--Slut Meny-->
-        <!--Stor bild-->
+
          <div class="container container-fluid" style="background-color:#ffffff;padding-left:15px">
             <div>
                 <ul class="breadcrumb">
@@ -120,16 +108,65 @@
                     <li class="active"><a href="#">Nyheter</a></li>
                 </ul>
             </div>
-            
-            <a href="#"><h1>Nyheter</a></h1>
 
-            <video controls="controls">
-                <source src="video/MrBean.webm" type="video/webm" />
-                <source src="video/MrBean.ogv" type="video/ogg" />
-                <source src="video/MrBean.mp4" type="video/mp4" />
+<div class="col-md-6"> 
+            <a href="#"><h1>Ditt dröm resemål</h1></a>
+
+            <form name="kontaktform" id="kontaktform" method="post" action="">
+<label for="namn"></label><br />
+<fieldset style="width: 400px;">
+<legend>På vilken sorts semester reser du helst?</legend>
+<input type="checkbox" name="Pa vilken sorts semester reser du helst?" id="Skidsemester" value="Skidsemester" class="input_checkbox" />
+<label for="var">Skidsemester</label><br />
+<input type="checkbox" name="Pa vilken sorts semester reser du helst?" id="Solsemester" value="Solsemester" class="input_checkbox" />
+<label for="sommar">Solsemester</label> <br />
+<input type="checkbox" name="Pa vilken sorts semester reser du helst?" id="Upptacksresande" value="Upptacksresande" class="input_checkbox" />
+<label for="host">Upptäcksresande</label><br />
+<input type="checkbox" name="Pa vilken sorts semester reser du helst?" id="Storstad" value="Storstad" class="input_checkbox"/>
+<label for="vinter">Storstad</label>
+</fieldset><br />
+
+<fieldset style="width: 400px;">
+<legend>Vilken världsdel skulle du helst resa till?</legend>
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="USA" value="USA" class="input_radio" />
+<label for="var">USA</label><br />
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="Sydamerika" value="Sydamerika" class="input_radio" />
+<label for="sommar">Sydamerika</label><br />
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="Afrika" value="Afrika" class="input_radio" />
+<label for="host">Afrika</label><br />
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="Asien" value="Asien" class="input_radio" />
+<label for="vinter">Asien</label><br />
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="Europa" value="Europa" class="input_radio" />
+<label for="vinter">Europa</label><br /> 
+<input type="radio" name="Vilken varldsdel skulle du helst resa till?" id="Australien" value="Australien" class="input_radio" />
+<label for="vinter">Australien</label><br />
+</fieldset>
+<br />
+
+<fieldset style="width: 400px;">
+<legend>Vilken årstid reser du helst?</legend>
+<input type="radio" name="Vilken arstid reser du helst?" id="var" value="var" class="input_radio" />
+<label for="var">Vår</label><br />
+<input type="radio" name="Vilken arstid reser du helst?" id="sommar" value="sommar" class="input_radio" />
+<label for="sommar">Sommar</label><br />
+<input type="radio" name="Vilken arstid reser du helst?" id="host" value="host" class="input_radio" />
+<label for="host">Höst</label><br />
+<input type="radio" name="Vilken arstid reser du helst?" id="vinter" value="vinter" class="input_radio" />
+<label for="vinter">Vinter</label> 
+</fieldset>
+<br />
+<input type="submit" name="skicka" id="skicka" value="Klar" />
+</form>
+</div>
+
+<div class="col-md-6">
+            <video controls="controls" style="width: 500px;">
+                <source src="video/Maldive3.webm" type="video/webm" />
+                <source src="video/Maldive3.ogv" type="video/ogg" />
+                <source src="video/Maldive3.mp4" type="video/mp4" />
 
             </video>
-
+</div>
 
            
         </div>
@@ -154,33 +191,28 @@
                     </p>
                 </div>
 
-                <div class="col-md-3">
-                    <p>FÖLJ OSS</p>
-                    <p>
-                        <img src="Images/instagram.png" /><a href="#"> Instagram</a><br />
-                        <img src="Images/twitter.png" /><a href="#"> Twitter</a><br />
-                        <img src="Images/facebook.png" /><a href="#"> Facebook</a><br />
-                        <img src="Images/youtube.png" /><a href="#"> Youtube</a>
-                    </p>
-                </div>
+              <div class="col-md-3"><p>FÖLJ OSS</p>
+                      <p><img src="Images/instagram.png" alt="Instagram" /><a href="#"> Instagram</a><br />
+                      <img src="Images/twitter.png" alt="Twitter" /><a href="#"> Twitter</a><br />
+                      <img src="Images/facebook.png" alt="Facebook" /><a href="#" > Facebook</a><br />
+                      <img src="Images/youtube.png" alt="Youtube" /><a href="#" > Youtube</a></p>  
+                  </div>
 
                 <div class="col-md-3">
                     <p>NYHETSBREV</p>
-                    <p>Prenumerera på vårt nyhetsbrev och få unika erbjudanden varje vecka.</a></p>
+                    <p>Prenumerera på vårt nyhetsbrev och få unika erbjudanden varje vecka.</p>
                     <div class="form-group">
                         <input type="text" placeholder="Email" class="form-control">
                     </div>
                 </div>
                 <p>&copy; Sofia Frändeby</p>
             </footer>
-        </div> <!-- /container -->
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+        </div> 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </section>
 </body>
